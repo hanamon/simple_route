@@ -1,13 +1,19 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* index.css - Reset CSS */
+*{margin:0;padding:0;vertical-align:top;border:0;}
+html,body{width:100%;height:100%;}
+html{overflow-y:scroll;}
+html.addScroll{overflow:hidden;}
+body{font:14px/1;color:#444;font-family:'Montserrat';background:#fff;}
+h1,h2,h3,h4,h5,h6{font-size:14px;color:#444;font-weight:400;}
+i,em,address{font-style:normal;}
+ul,ol{list-style:none;}
+table{border-collapse:collapse;}
+tr,td{text-align:center;vertical-align:middle;}
+header,main,footer,nav,aside,address{display:block;}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+a{color:#444;text-decoration:none;}
+a:hover{color:#444;text-decoration:none;}
+
+.floatclear:after{content:'';display:block;clear:both;}
+.hidden{display:none;}
+.blind{display:block;overflow:hidden;text-indent:-10000px;}
